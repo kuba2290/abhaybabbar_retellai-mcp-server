@@ -188,8 +188,8 @@ export const CreateAgentInputSchema = z.object({
       "eleven_turbo_v2_5",
       "eleven_flash_v2_5",
       "eleven_multilingual_v2",
-      "Play3.0-mini",
-      "PlayDialog",
+      "tts-1",
+      "gpt-4o-mini-tts"
     ])
     .optional(),
   // fallback_voice_ids: z.array(z.string()).optional(),
